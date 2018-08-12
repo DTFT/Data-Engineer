@@ -1,4 +1,4 @@
-encoding='utf8'
+# encoding='utf8'
 
 fr= open('xyj.txt','r',encoding='UTF-8')
 
@@ -34,11 +34,11 @@ print (len(stat))
 # lambda生成一个临时函数
 # d表示字典的每一对键值对，d[0]为key，d[1]为value
 # reverse为True表示降序排序
-stat = sorted(stat.items(), key=lambda d:d[1], reverse=True)
+# stat = sorted(stat.items(), key=lambda d:d[1], reverse=True)
 
-fw=open("result.csv","w",encoding= 'UTF-8-sig')
-for item in stat:
-	fw.write(item[0] + ',' + str(item[1]) + '\n')
+# fw=open("result.csv","w",encoding= 'UTF-8-sig')
+# for item in stat:
+# 	fw.write(item[0] + ',' + str(item[1]) + '\n')
 
-fr.close()
-fw.close()
+# fr.close()
+# fw.close()
